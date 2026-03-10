@@ -1,10 +1,13 @@
-def time():
+def temperature():
     """
-    Ejercicio 4 - Calculadora de Tiempo
+    Ejercicio 3 - Conversión de Temperatura
 
-    Dado un total de segundos, calcular e imprimir:
-    1. Horas completas
-    2. Minutos completos restantes
-    3. Segundos restantes
+    Dada una temperatura en Celsius, imprimir:
+    1. La temperatura en Fahrenheit (F = C × 9/5 + 32)
+    2. La temperatura original en Celsius
     """
-    total_segundos = 3665
+    celsius = 25
+    
+    fahrenheit = celsius * 9/5 + 32
+    print(fahrenheit)
+    print(celsius)
